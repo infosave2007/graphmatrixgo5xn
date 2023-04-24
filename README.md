@@ -1,9 +1,7 @@
-Create a new file named `README.md` in the root folder of your `graphmatrix5xn` package, and add the following content:
+# GraphMatrix5xN finding shortest paths in a graph
 
-```markdown
-# GraphMatrix5xN
+GraphMatrix5xN is an efficient algorithm for finding the shortest path between two nodes in a graph using a 5xN matrix structure. This algorithm was designed to solve a wide range of problems including those involving predicates and artificial intelligence. Compared to Dijkstra's algorithm (used matrix NxN), GraphMatrix5xN offers significant performance benefits for large graphs due to its reduced memory footprint and optimized processing of graph edges. This makes it especially suitable for applications where memory constraints and computational efficiency are critical factors.
 
-GraphMatrix5xN is an efficient algorithm for finding the shortest path between two nodes in a graph using a 5xN matrix structure. This algorithm was designed to solve a wide range of problems including those involving predicates and artificial intelligence.
 
 ## Features
 
@@ -25,7 +23,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/infosave2007/graphmatrixgo5xn/src"
+	"github.com/infosave2007/graphmatrixgo5xn/src/graphmatrix5xn"
 )
 
 func main() {
